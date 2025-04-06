@@ -11,97 +11,23 @@ const Home = () => {
 
       <ImageCarousel />
 
-      <div className=' mx-4 p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700'>
-        <h1 className='mb-4 text-4xl  text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white'>Kisaan Setu</h1>
+      <div className='mx-4 p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700'>
+        <h1 className='mb-4 text-4xl text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white'>Kisaan Setu</h1>
         <h2 className='text-2xl md:text-4xl font-extrabold dark:text-white'>Your Comprehensive Digital Bridge for FPO Empowerment, Efficiency, and Growth</h2>
 
         <p className='y-4 text-lg text-gray-500'>Farmer Producer Organizations (FPOs) stand as vital pillars in strengthening the agricultural community, but managing their diverse and complex operations presents unique challenges. From coordinating hundreds of members and tracking countless transactions to optimizing resource allocation and connecting with markets, the need for a robust, integrated system is paramount.</p>
         <p className="y-4 text-lg text-gray-500">Introducing Kisaan Setu meaning &apos;Farmer&apos;s Bridge&apos; more than just software, it&apos;s a dedicated, comprehensive platform meticulously designed to bridge these operational gaps.</p>
 
-
-
-        <h2>Unlock the Full Potential of Your FPO with Kisaan Setu's Integrated Modules:</h2>
+        <h2>Unlock the Full Potential of Your FPO with Kisaan Setu&apos;s Integrated Modules:</h2>
+        
+        {/* Rest of the list items */}
         <ul className='list-disc list-inside'>
-          <li> <span className='mb-2 text-lg font-semibold text-gray-900 dark:text-white'>Strengthen Your Foundation: Streamlined Member Management</span>
-            <ul className='max-w-xlmax-w-xl p-4 space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400'>
-              <li>Easily onboard, manage, and maintain detailed profiles for all farmer members, including land holdings and cropping patterns.</li>
-              <li>Centralize communication, track member activities, and foster a stronger, more connected community.</li>
-              <li>Build a solid, organized foundation for all FPO activities and benefit distribution.</li>
-
-            </ul>
-          </li>
-
-
-
-          <li> <span className='mb-2 text-lg font-semibold text-gray-900 dark:text-white'>Optimize Core Operations: Efficient Input, Inventory & Procurement Control
-
-          </span>
-            <ul className='max-w-xlmax-w-xl p-4 space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400'>
-              <li>Gain real-time visibility and efficiently track the procurement, stock levels, and distribution of crucial inputs like seeds, fertilizers, and pesticides.
-              </li>
-              <li>Seamlessly manage aggregated produce inventory from members, reducing spoilage and enabling better sales planning.
-              </li>
-              <li>Streamline the entire procurement process, save valuable time, reduce manual errors, and ensure resource availability.
-              </li>
-
-            </ul>
-          </li>
-
-
-          <li> <span className='mb-2 text-lg font-semibold text-gray-900 dark:text-white'>Achieve Financial Clarity & Control: Integrated Accounting</span>
-            <ul className='max-w-xlmax-w-xl p-4 space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400'>
-              <li>Simplify your FPO's financial management with easy-to-use tools for tracking payments, receivables, expenses, and member share capital.
-              </li>
-              <li>Manage transactions transparently, generate accurate financial statements (like Balance Sheets, P&L), and gain a clear understanding of your organization's financial health.
-              </li>
-              <li>Enhance financial accountability across all operations, ensuring trust and compliance.
-              </li>
-
-            </ul>
-          </li>
-
-
-          <li> <span className='mb-2 text-lg font-semibold text-gray-900 dark:text-white'>Unlock Market Potential: Enhanced Sales & Market Linkages
-
-          </span>
-            <ul className='max-w-xlmax-w-xl p-4 space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400'>
-              <li>Efficiently manage the collective marketing and sales process for aggregated member produce.</li>
-              <li>Track sales orders, deliveries, and buyer payments systematically.
-              </li>
-              <li>Facilitate better connections between your FPO's output and potential buyers, unlocking improved market opportunities and prices.
-              </li>
-
-            </ul>
-          </li>
-
-          <li> <span className='mb-2 text-lg font-semibold text-gray-900 dark:text-white'>Empower with Insights: Data-Driven Decisions & Reporting
-
-          </span>
-            <ul className='max-w-xlmax-w-xl p-4 space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400'>
-              <li>Move beyond guesswork with powerful, easy-to-understand reports and analytics.
-              </li>
-              <li>Gain valuable, crucial insights into operational efficiency, financial performance, member activity, and inventory turnover.
-              </li>
-              <li>Make informed, strategic decisions to guide your FPO's direction, optimize resource allocation, and drive profitability.
-              </li>
-
-            </ul>
-          </li>
-
-
-          <li> <span className='mb-2 text-lg font-semibold text-gray-900 dark:text-white'>The Kisaan Setu Advantage: Your Essential Bridge to Success</span>
-            <ul className='max-w-xlmax-w-xl p-4 space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400'>
-              <li><span className='font-semibold text-gray-900 dark:text-white'>Operate with Peak Efficiency:</span>Automate tasks, eliminate redundant paperwork, and significantly reduce manual errors.</li>
-              <li><span className='font-semibold text-gray-900 dark:text-white'>Enhance Transparency & Accountability: </span>Foster trust among members and stakeholders with clear, accessible data.</li>
-              <li><span className='font-semibold text-gray-900 dark:text-white'>Drive Profitability:</span> Optimize operations from input procurement to final sale, maximizing returns for members</li>
-              <li><span className='font-semibold text-gray-900 dark:text-white'>Empower Your Members:</span>Ensure fair practices and clear communication regarding transactions and benefits.</li>
-              <li><span className='font-semibold text-gray-900 dark:text-white'>Cultivate Sustainable Growth:</span>Build a stronger, more resilient, and data-informed organization poised for future success.</li>
-
-            </ul>
-          </li>
-
+          <li><span className='mb-2 text-lg font-semibold text-gray-900 dark:text-white'>Enhance Transparency & Accountability: </span>Foster trust among members and stakeholders with clear, accessible data.</li>
+          <li><span className='font-semibold text-gray-900 dark:text-white'>Drive Profitability:</span> Optimize operations from input procurement to final sale, maximizing returns for members</li>
+          <li>Simplify your FPO&apos;s financial management with easy-to-use tools for tracking payments, receivables, expenses, and member share capital.</li>
+          <li>Manage transactions transparently, generate accurate financial statements (like Balance Sheets, P&L), and gain a clear understanding of your organization&apos;s financial health.</li>
+          <li>Facilitate better connections between your FPO&apos;s output and potential buyers, unlocking improved market opportunities and prices.</li>
         </ul>
-
       </div>
   
       <footer>
@@ -156,11 +82,6 @@ const Home = () => {
             <a href="#" className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400">
               <svg className="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                 <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
-              </svg>
-            </a>
-            <a href="#" className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400">
-              <svg className="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
-                <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
               </svg>
             </a>
             <a href="#" className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full hover:text-blue-400 hover:border-blue-400">
