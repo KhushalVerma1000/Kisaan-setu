@@ -37,7 +37,7 @@ export default async function DashboardLayout({ children }) {
       <main>
         <div className=" border-2 w-lvw flex gap-2 align-middle items-center justify-start"> 
           <SidebarTrigger />
-        <h1 className=" text-2xl font-bold">Udaan Farmer Producer Company  Limited</h1>
+        <h1 className=" text-2xl font-bold">BHOO-KRANTI HASANGANJ KRISHAK FARMER PRODUCER COMPANY LTD</h1>
         </div>
        
         
