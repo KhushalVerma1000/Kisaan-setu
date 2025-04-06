@@ -1,7 +1,8 @@
 import { ImageCarousel } from '@/components/ImageCarousel'
 import TopNavbar from '@/components/TopNavbar'
 import React from 'react'
-
+import Link from 'next/link'
+import Image from 'next/image'
 const Home = () => {
   return (
     <section>
@@ -15,7 +16,7 @@ const Home = () => {
         <h2 className='text-2xl md:text-4xl font-extrabold dark:text-white'>Your Comprehensive Digital Bridge for FPO Empowerment, Efficiency, and Growth</h2>
 
         <p className='y-4 text-lg text-gray-500'>Farmer Producer Organizations (FPOs) stand as vital pillars in strengthening the agricultural community, but managing their diverse and complex operations presents unique challenges. From coordinating hundreds of members and tracking countless transactions to optimizing resource allocation and connecting with markets, the need for a robust, integrated system is paramount.</p>
-        <p className='y-4 text-lg text-gray-500'>Introducing Kisaan Setu (meaning 'Farmer's Bridge') – more than just software, it's a dedicated, comprehensive platform meticulously designed to bridge these operational gaps. Kisaan Setu is the smart, simple, and intuitive solution built specifically to empower your FPO, cultivate sustainable growth, enhance transparency, and maximize benefits for every single farmer member. It replaces cumbersome paperwork and fragmented systems with a single, unified digital backbone for your entire organization.</p>
+        <p className="y-4 text-lg text-gray-500">Introducing Kisaan Setu meaning &apos;Farmer&apos;s Bridge&apos; more than just software, it&apos;s a dedicated, comprehensive platform meticulously designed to bridge these operational gaps.</p>
 
 
 
@@ -108,12 +109,18 @@ const Home = () => {
       <div className="container px-4 mx-auto">
         <div className="-mx-4 flex flex-wrap justify-between">
           <div className="px-4 my-4 w-full xl:w-1/5">
-            <a href="/" className=" flex items-center gap-2   mb-10">
-             <img src="/Logo.jpeg" alt="Logo" className=" w-16 h-16 rounded-2xl" /> 
-             <span className=' text-3xl font-bold'>Kisaan Setu</span>
-            </a>
+            <Link href="/" className="flex items-center gap-2 mb-10">
+              <Image 
+                src="/Logo.jpeg" 
+                alt="Logo" 
+                width={64}
+                height={64}
+                className="rounded-2xl"
+              />
+              <span className="text-3xl font-bold">Kisaan Setu</span>
+            </Link>
             <p className="text-justify">
-            Build a transparent, efficient, and prosperous future for your farmer members. Let Kisaan Setu be the essential digital bridge connecting your FPO's efforts to tangible success.            </p>
+            Build a transparent, efficient, and prosperous future for your farmer members. Let Kisaan Setu be the essential digital bridge connecting your FPOs efforts to tangible success.</p>
           </div>
 
           <div className="px-4 my-4 w-full sm:w-auto">
